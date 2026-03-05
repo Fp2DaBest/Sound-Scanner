@@ -433,12 +433,12 @@ sb.MouseButton1Click:Connect(function()
 		sb.Text = "stop"
 		sb.BackgroundColor3 = Color3.fromRGB(40,25,25)
 		sb.BorderColor3 = Color3.fromRGB(70,40,40)
-		rconsoleprint("Scanning for sounds....\n")
+		print("Scanning for sounds....")
 		if not swept then
 			task.spawn(dosweep)
 		end
 	else
-		rconsoleprint("Stopped scanning. Found " .. cnt .. " sounds.\n")
+		print("Stopped scanning. Found " .. cnt .. " sounds.")
 		sb.Text = "scan"
 		sb.BackgroundColor3 = Color3.fromRGB(30,30,30)
 		sb.BorderColor3 = Color3.fromRGB(50,50,50)
