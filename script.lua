@@ -13,8 +13,8 @@ for _, v in pairs(gethui():GetChildren()) do
 end
 
 local main = Instance.new("Frame")
-main.Size = UDim2.new(0, 240, 0, 260)
-main.Position = UDim2.new(0.5, -120, 0.5, -130)
+main.Size = UDim2.new(0, 300, 0, 340)
+main.Position = UDim2.new(0.5, -150, 0.5, -170)
 main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 main.BorderColor3 = Color3.fromRGB(45, 45, 45)
 main.BorderSizePixel = 1
